@@ -2,10 +2,30 @@ html, body, body *, *, *::before, *::after {
     box-sizing: border-box;
 }
 
-body, html, h6, h5, h4, h3, h2, h1 {
-    font-family: $fontFamily;
+html {
+	font-size: 62.5%;
+}
+
+body {
+    background-color: rgba($black, 0.8);
+    font-family: $fontFamily_principal;
     font-size: $baseFont + px;
+	font-size: 1.6rem;
     font-weight: 400;
+	&.showMenu {
+		.header {
+			height: 100%;
+			transition: height 1s;
+		}
+		.navigation.mobile {
+			opacity: 1;
+			pointer-events: all;
+			transition: opacity .5s linear;
+		}
+	}
+}
+
+body, h6, h5, h4, h3, h2, h1 {
     padding: 0;
 	margin: 0;
 }

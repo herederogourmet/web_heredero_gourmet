@@ -23,3 +23,27 @@ $ie : "screen and (-ms-high-contrast: active), (-ms-high-contrast: none)";
 // @media #{$mediaMobile}{
 // 	background-color: red!important;
 // }
+
+// MEDIAQUERIES
+$mediaqueries: (
+	hover: 			"(hover: hover)",
+	ie: 			"screen and (-ms-high-contrast: active), (-ms-high-contrast: none)",
+	safari: 		"screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0)",
+	safari2: 		"not all and (min-resolution:.001dpcm)",
+	landscape:		"(orientation: landscape)",
+	portrait:		"(orientation: portrait)",
+	mobS3: 			360,
+	mobS2: 			480,
+	mobS: 			640,
+	mob: 			767,
+	tabS: 			820,
+	tab: 			991,
+	lapS3: 			1024,
+	lapS2: 			1199,
+	lapS: 			1280,
+	lap: 			1367,
+	deskS: 			1440,
+	desk: 			1560,
+	deskB: 			1680
+);
+

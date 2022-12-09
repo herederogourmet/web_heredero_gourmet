@@ -6,7 +6,7 @@ const path = require('path'), // for routes
 module.exports = { // object for node js
     entry: './sources/js/app.js',
     output: {
-        path: __dirname + "public_html/wp-content/themes/customTheme",
+        path: __dirname + "/public/wp-content/themes/herederogourmet",
         filename: 'js/mainscript.js'
     },
     devtool: 'source-map',
@@ -25,7 +25,7 @@ module.exports = { // object for node js
                     {
                         loader: miniCssExtractPlugin.loader,
                         options: {
-                            publicPath: __dirname + "public_html/wp-content/themes/customTheme",
+                            publicPath: __dirname + "/public/wp-content/themes/herederogourmet",
                         }
                     },
                     {

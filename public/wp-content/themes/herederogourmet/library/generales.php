@@ -6,7 +6,9 @@ add_theme_support('nav-menus');
 if(function_exists ('register_nav_menus')){
    register_nav_menus(
         array(
-            'header-menu' => __( 'Header Menu' ),
+            'menu-left' => __( 'Menú Izquierda', 'herederogourmet' ),
+            'menu-right' => __( 'Menú Derecha', 'herederogourmet' ),
+            'menu-mobile' => __( 'Menú Móvil', 'herederogourmet' ),
             // 'footer-menu' => __( 'Footer Menu' )
           )
    );
@@ -25,5 +27,6 @@ function widgets_de_tema() {
         'after_title'   => '</h3>',
     ) );
 }
-add_action( 'widgets_init', 'widgets_de_tema' );
+// add_action( 'widgets_init', 'widgets_de_tema' );
+add_action( 'init', 'widgets_de_tema' );
 /*======================================*/

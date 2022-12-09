@@ -1,22 +1,3 @@
-# Template Wordpress Webpack
-
-Página web creada con Wordpress.
-
-## Requirements
-```
-- Lastest version node js
-- webpack
-
-```
-
-## Credentials
-Account | user | password | host | path | observation
---- | --- | --- | --- |--- |--- 
-gmail | v | w | x | y | z 
-wordpress | - | - |  |  |   
-GIT | https://gitlab.com/150/template-wordpress-webpack
-
-
 ## Installation ##### 
 
 Siga las instrucciones
